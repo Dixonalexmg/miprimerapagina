@@ -4,7 +4,9 @@ body {
     padding: 0;
     background-color: #f0f0f0;
     }
-
+header .titulo {
+    margin-right: 300px;
+}
 header {
     background-color: #333;
     color: #fff;
@@ -92,9 +94,12 @@ main {
 }
 
 .titulo-seccion-3{
-    padding: 20px;
+    position: relative;
     font-size: 40px;
-    
+    text-align: center;
+    border-style: dotted;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 
