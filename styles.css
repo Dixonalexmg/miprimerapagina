@@ -122,6 +122,17 @@ ul {
     height: 300px; 
     border-radius: 8px; 
   }
+
+.greeting {
+   width: 100%;
+   background-color: #2e1717;
+   padding: 10px;
+   color: #f6f7f8;
+   font-size: 20px;
+   margin-top: 30px;
+   border-radius: 8px;
+}  
+
 footer {
     display: flex;
     flex-direction: column;
