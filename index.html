@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script 
+    src="https://kit.fontawesome.com/889309798f.js" crossorigin="anonymous">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+        <header id="encabezado">
+            <a href="index.html"><i class="fa-solid fa-code"></i></a>
+                    <label for="check" class="checkbtn">
+                        <i class="fa-solid fa-bars"></i>
+                     </label>
+                <nav class="navbar">    
+                <ul class="menu">
+                    <li>Inicio</li>
+                    <li>Acerca de mi</li>
+                    <li>Trabajos</li>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2>Acerca de mi</h2>
+                    <p class="parrafo1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                    <p class="parrafo2">Me llamo Dixon, nací y vivo en Ica, Peru. Me gusta el helado y salir a pasear en días de sol. Me encantaría aprender a programar para poder ayudar a las personas a mostrar lo que hacen.</p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="imagenes/personal.jpeg" alt="imagen personal">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src="imagenes/carrusel.jpg" alt="imagen carrusel">
+            </section>
+
+            <h2 class="titulo-seccion-3"></P>Portafolio</h2>
+
+            <section class="seccion-3">
+                
+                <div class="proyectos">
+                    <img src="imagenes/proyectos.jpeg" alt="proyectos" class="imagen">
+                    <h3 class="titulo-bloque">Proyectos</h3>
+                    <ul>
+                        <li>Plataforma de E-commerce "Shopify Plus"</li>
+                        <li>Aplicación de Gestión de Contenidos "Contently"</li>
+                        <li>Sistema de Reservas de Hoteles "Hotelio"</li>
+                        <li>Red Social para Viajeros "Wanderlust"</li>
+                        <li>Aplicación de Fitness "FitTrack"</li>
+                        <li>Plataforma Educativa Online "EduHub"</li>
+                        <li>Herramienta de Gestión de Proyectos "ProTask"</li>
+                        <li>Aplicación de Entrega de Alimentos "DeliverEZ"</li>
+                        <li>Plataforma de Aprendizaje de Idiomas "LingoLearn"</li>
+                        <li>Sistema de Gestión de Eventos "EventMaster"</li>
+                    </ul>
+                </div>
+                <div class="habilidades">
+                    <img src="imagenes/habilidades.jpg" alt="habilidades" class="imagen">
+                    <h3 class="titulo-bloque">Habilidades Técnicas</h2>
+                    <ul>
+                        <li>Dominio de lenguajes de programación como JavaScript, Python y Java.</li>
+                        <li>Experiencia en el desarrollo web utilizando HTML, CSS y frameworks como React.js y Vue.js.</li>
+                        <li>Conocimientos sólidos en bases de datos SQL y NoSQL, así como en el uso de tecnologías como MongoDB y MySQL.</li>
+                        <li>Competencia en el uso de herramientas de control de versiones como Git.</li>
+                        <li>Capacidad para trabajar con metodologías ágiles como Scrum y Kanban.</li>
+                        <li>Habilidad para resolver problemas de manera creativa y eficiente, y para colaborar efectivamente en equipos multidisciplinarios.</li>
+                    </ul>
+                </div>
+                <div class="educacion">
+                    <img src="imagenes/educacion.jpg" alt="educacion" class="imagen">
+                    <h3 class="titulo-bloque">Cursos y certificaciones</h3>
+                    <ul>
+                        <li>Curso de Desarrollo Web Completo - Udemy</li>
+                        <li>Certificación de JavaScript Profesional - Coursera</li>
+                        <li>Curso de Python para Principiantes - Codecademy</li>
+                        <li>Certificación en Fundamentos de Git - LinkedIn Learning</li>
+                        <li>Curso de React.js desde cero - Platzi</li>
+                        <li>Certificación en Ciencia de Datos con Python - edX</li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer class="form-header">
+                <h1>Contacto</h1>
+                <p><em>¡Esperamos tu consulta!</em></p>
+            
+                <form action="" method="get" class="formulario" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text"/>
+                      </div>
+                      <div class="form-row">
+                        <label for="email">Email</label>
+                        <input
+                          id="email" name="email" type="email" placeholder="correo@gmail.com" />
+                      </div>
+                      <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje"></textarea>
+                      </div>
+                      <div class="form-row">
+                        <button>Enviar</button>
+                      </div>
+                      <div>
+                        <p id="alertas" class="alertas"></p>
+                      </div>
+                </form>
+            </footer>
+
+        </main>
+        <footer class="final">
+            <a href="index.html"><i class="fa-solid fa-code"></i></a>
+            <h3>
+                2024 - Todos los derechos reservados.                 
+            </h3>
+        </footer>    
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

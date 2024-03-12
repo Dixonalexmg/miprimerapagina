@@ -1,0 +1,468 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    }
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    }
+
+header a i {
+    font-size: 3em;
+    color: white;
+    padding: 0.1em;
+    }
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.1em;
+    }
+
+nav ul li {
+    margin: 0 10px;
+    font-size: 18px;
+    }
+
+#check {
+    display: none;}
+
+.checkbtn {
+    display: none;
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+
+main {
+    padding: 20px;
+    }
+
+.seccion-1 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    }
+
+.acerca-de {
+    width: 100%;
+    padding: 2em;
+    }
+
+.acerca-de h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    }
+
+.parrafo1 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    }
+
+.parrafo2 {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    }
+
+.acerca-imagen img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    }
+
+.seccion-2 img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.titulo-seccion-3{
+    padding: 20px;
+    font-size: 40px;
+    
+}
+
+
+.seccion-3 {
+    display: flex;
+    text-align: left;
+    gap: 70px;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+.proyectos, .habilidades, .educacion{
+    width: 100%; 
+}
+
+.imagen {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 8px; 
+  }
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+.form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } 
+.form-row input[type="text"], .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }     
+.form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }  
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  } 
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+     
+.final i {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: black;
+    font-size: 2em;
+}
+.final h3 {
+
+    background-color: #262525;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 8px;
+
+    }
+
+
+@media (max-width: 768px) {
+.seccion-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+.acerca-de {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+  }
+
+.seccion-2 {
+    width: 100%;
+  }
+
+.titulo-seccion-3 {
+    text-align: center;
+  }
+
+.titulo-bloque {
+    text-align: center;
+  }
+
+.seccion-3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.checkbtn {
+    display: block;
+    }
+#encabezado {
+    position: fixed;
+    width: 100%;
+    border-radius: 5px;
+    }
+
+
+.navbar {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0vh;
+    background-color: #333;
+    text-align: center;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.menu {
+    padding: 0;
+    display: block;
+    margin-bottom: 150px;
+}
+
+.navbar.active {
+    height: 100vh;   
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+}
+
+@media screen and (min-width: 780px) and (max-width: 1023px) {
+
+.seccion-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    margin-top: 100px;
+    }
+     
+.acerca-de {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    }
+.acerca-imagen img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    }    
+.seccion-2 {
+    width: 100%;
+    }
+.proyectos, .habilidades, .educacion{
+    width: 100%; 
+    }
+    
+.imagen {
+    width: 90%; 
+    height: 300px; 
+    border-radius: 8px; 
+    }
+.titulo-seccion-3 {
+    text-align: center;
+    }
+    
+.titulo-bloque {
+    text-align: center;
+    }
+    
+.seccion-3 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+    }
+    
+.checkbtn {
+    display: block;
+    }
+#encabezado {
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+
+.navbar {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0vh;
+    background-color: #333;
+    text-align: center;
+    transition: all 0.5s;
+    overflow: hidden;
+    }
+    
+.menu {
+    padding: 0;
+    display: block;
+    margin-bottom: 150px;
+    }
+    
+.navbar.active {
+    height: 100vh;   
+    }
+    
+nav ul li {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    
+    }
+
+.form-header {
+        padding: 50px;
+      }
+    
+.form-row {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+.form-row input[type="text"] {
+        width: 250px;
+        height: initial;
+      }
+.form-row label {
+        text-align: right;
+        width: 120px;
+        margin-top: 7px;
+        padding-right: 20px;
+      }
+.form-row textarea {
+          width: 250px;
+        }
+.form-row button {
+          margin-left: 120px;
+        }
+
+.formulario {
+        background-color: #f6f7f8;
+            border: 1px solid #d6d9dc;
+            border-radius: 3px;
+          
+            width: 80%;
+            padding: 50px;
+            margin: 30px 0 40px 0;
+          }
+.form-row {
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            flex-wrap: wrap;
+          } 
+.form-row input[type="text"], .form-row input[type="email"] {
+            background-color: #bdbdbd;
+            border: 0;
+            border-radius: 6px;
+            width: 100%;
+            padding: 7px;
+            font-size: 14px;
+          }     
+.form-row label {
+            margin-bottom: 3px;
+            text-align: initial;
+          }                    
+    }
+.form-row textarea {
+        font-family: "Helvetica", "Arial", sans-serif;
+        font-size: 14px;
+      
+      
+        background-color: #bdbdbd;
+        border: 0;
+        border-radius: 6px;
+      
+      
+        min-height: 200px;
+        margin-bottom: 10px;
+        padding: 7px;
+        resize: none;
+      
+      
+        width: 100%;
+      }
